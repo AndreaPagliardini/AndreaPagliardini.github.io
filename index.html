@@ -64,112 +64,141 @@
 <body>
 
 
-<header id="site-head" style="background-image: url(images/img-front-2.jpeg)">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
-    <div class="vertical">
-        <div id="site-head-content" class="inner">
+<header id="site-head" style="background-image: url(images/img-front-2.jpeg)" >
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+  <div class="vertical">
+    <div id="site-head-content" class="inner">
 
-            <h1 class="blog-title">Andrea Pagliardini</h1>
-            <h2 class="blog-description">Diététicienne, Nutritionniste</h2>
+      <h1 class="blog-title">Andrea Pagliardini</h1>
+      <h2 class="blog-description">Diététicienne, Nutritionniste</h2>
 
-            
-                 <a class='btn site-menu' data-title-anchor='mon-approche'>Mon Approche</a>
-            
-                 <a class='btn site-menu' data-title-anchor='consultation'>Consultation</a>
-            
-                 <a class='btn site-menu' data-title-anchor='me-contacter'>Me Contacter</a>
-            
-            <i id='header-arrow' class="fa fa-angle-down"></i>
-        </div>
+      
+      <a class='btn site-menu' data-title-anchor='mon-approche'>Mon Approche</a>
+      
+      <a class='btn site-menu' data-title-anchor='consultation'>Consultation</a>
+      
+      <a class='btn site-menu' data-title-anchor='me-contacter'>Me Contacter</a>
+      
+      <i id='header-arrow' class="fa fa-angle-down"></i>
     </div>
-    <style>
+  </div>
+  <style>
+    h1.site-head {
+      color: #0f1512;
+    }
 
-         h1.site-head {
-           color:#0f1512;
-         }
+    h2.site-head {
+      color: #0f1512;
+    }
 
-         h2.site-head {
-           color:#0f1512;
-         }
+    h1 {
+      font-family: 'Gill Sans', serif;
+    }
 
-         h1 {
-           font-family: 'Newsreader', serif;
-         }
+    h2 {
+      font-family: 'Gill Sans', serif;
+    }
 
-         h2 {
-           font-family: 'Newsreader', serif;
-         }
+     
+    a:hover {
+      color: #5b7f70;
+    }
 
-          
-         a:hover {
-             color: #5b7f70;
-         }
-          
-         a.btn {
-             color: white;
-              background-color: #7caf9a;
-         }
-         a.btn:hover {
-              background-color: #4c6a5d;
-         }
-          
-         a.fn-item.active {
-              color: #5b7f70;
-         }
-         a.fn-item:hover {
-              color: #79a995;
-         }
+     
+    a.btn {
+      color: white;
+      background-color: #7caf9a;
+    }
 
-          
-         .post-holder.odd {
-              background: #81bbce;  
-              color: white;
-         }
-         .post-holder {
-              background: #f2efe8;
-         }
-         body {
-              font-family: 'Newsreader', serif;
-               
-              color: #3A4145;
-              text-align: justify;
-              background-color: #F5F3E7;
-         }
-          
-         .site-footer {
-              color: #BBC7CC;
-              background-color: #22343A;
-         }
+    a.btn:hover {
+      background-color: #4c6a5d;
+    }
 
-         img {
-           border-radius: 500px;
-           width: 300px;
-         }
-    </style>
+     
+    a.fn-item.active {
+      color: #5b7f70;
+    }
+
+    a.fn-item:hover {
+      color: #79a995;
+    }
+
+     
+    .post-holder.odd {
+      background: #81bbce;
+       
+      color: white;
+    }
+
+    .post-holder {
+      background: #f2efe8;
+    }
+
+    body {
+      font-family: 'Gill Sans', serif;
+       
+      color: #3A4145;
+      text-align: justify;
+      background-color: #F5F3E7;
+    }
+
+    p.italic {
+      font-family: 'Gill Sans Italic',serif;
+    }
+
+     
+    .site-footer {
+      color: #BBC7CC;
+      background-color: #22343A;
+    }
+
+    img {
+      border-radius: 500px;
+      width: 300px;
+    }
+
+    @font-face {
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Gill Sans'), url('fonts/gill-sans.otf');
+    }
+    @font-face {
+      font-family: 'Gill Sans Italic';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Gill Sans Italic'), url('fonts/gill-sans-italic.otf');
+    }
+    
+  </style>
 </header>
 <main class="content" role="main">
 
-    <div class='fixed-nav'>
-      <div style="display:flex;flex-direction:column;">
-        <div title="Ma page Instagram" style="width:30px;height:30px;background-color:#98D4BB;border-radius:10px;display:flex;flex-direction:column;align-items:center;margin-bottom:5px;">
-          <icon class="fa fa-instagram fa-2x" onclick="location.href='https://www.instagram.com/andrea_dieteticienne/?hl=fr';" style="cursor: pointer;margin-left:1px;" >
-        </div>
+  <div class='fixed-nav'>
+    <div style="display:flex;flex-direction:column;">
+      <div title="Ma page Instagram"
+        style="width:30px;height:30px;background-color:#98D4BB;border-radius:10px;display:flex;flex-direction:column;align-items:center;margin-bottom:5px;">
+        <icon class="fa fa-instagram fa-2x"
+          onclick="location.href='https://www.instagram.com/andrea_dieteticienne/?hl=fr';"
+          style="cursor: pointer;margin-left:1px;">
       </div>
     </div>
+  </div>
 
-    
-        <div class='post-holder'>
-            <article id='à-propos' class='post first'>
-                <header class="post-header">
-                    <h2 class="post-title">À Propos</h2>
-                </header>
-                <section class="post-content">
-                    <p><img src="images/andrea.jpeg" alt="Andrea Pagliardini"></p>
-<p>Bonjour, je m’appelle Andréa, je vis à Bordeaux depuis maintenant 4 ans et je suis diététicienne nutritionniste. Pourtant, mon rapport à l’alimentation n’a pas toujours été très sain. Il y a quelques années, mon médecin généraliste m’a annoncé que j’étais en surpoids (sans franchement beaucoup de tact …) et en tant qu’ado ayant déjà une estime de moi-même assez fragile, ça m’a achevée.</p>
-<p>Avec l’aide d’internet, j’ai donc décidé de me lancer dans les régimes amaigrissants. Je me suis essayée au régime hyperprotéiné, me nourrissant de jambon blanc à longueur de journée, j’ai compté mes calories scrupuleusement pour ne pas dépasser les 1200 kcal et j’ai même essayé le régime weight watchers. Rien ne fonctionnait. Je perdais du poids au début, suivant méticuleusement les protocoles. Mais j’étais affamée et finissais toujours par céder à mes envies d’aliments interdits, de chocolat, de frites et autre junk food qui paraissaient si délicieux face aux légumes bouillis et poissons-vapeur.</p>
-<p>Un peu égoïstement, je suis devenue diététicienne dans le but de comprendre enfin comment maigrir! Pendant mes études, j’ai découvert l’approche bio-psycho-sensorielle du Groupe de Réflexion sur l’Obésité et le Surpoids (GROS) à laquelle je suis en train de me former afin de devenir praticienne agréée.
-Cette méthode axée sur la restriction cognitive nous permet de sortir du cycle infernal “régime, sanction, culpabilité”, et cela m&rsquo;a enfin permis de rejoindre mon poids d’équilibre et de le stabiliser.</p>
+  
+  <div class='post-holder'>
+    <article id='à-propos'
+      class='post first'>
+      <header class="post-header">
+        <h2 class="post-title">À Propos</h2>
+      </header>
+      <section class="post-content">
+        <p><img src="images/andrea.jpeg" alt="Andrea Pagliardini"></p>
+<p>Bonjour, je m’appelle Andréa, je suis diététicienne nutritionniste et je vis à Bordeaux depuis maintenant 4 ans.</p>
+<p>Comme pour beaucoup d’adolescents, mon rapport à l’alimentation n’a pas toujours été très sain. Un jour, mon médecin généraliste m’annonce que je suis en surpoids. Ce sera le début des régimes pour moi.</p>
+<p>Avec l’aide d’internet, je m’essaye au régime hyperprotéiné, me nourrissant de jambon blanc à longueur de journée, puis je compte mes calories scrupuleusement pour ne pas dépasser les 1200 kcal, j’ai même essayé le de compter mes points selon les aliments. Rien n’a fonctionné dans la durée. J’ai perdu du poids au début, suivant méticuleusement les protocoles. Mais me sentant privée, je finissais souvent par céder à mes envies d’aliments interdits, de chocolat, de frites et autre junk food qui paraissent si délicieux face aux légumes bouillis et poissons vapeur, eux autorisés et incontournables. On se met petit à petit à intellectualiser notre façon de manger et on oubli peu à peu nos sensations alimentaires.</p>
+<p>Devenue diététicienne, peut-être par intérêt, je comprends parfaitement les mécanismes du fonctionnement de notre organisme, ce dont il a besoin pour stabiliser votre poids, mais aussi toute la dimension psychologique de notre fonctionnement. Pendant mes études, j’ai découvert l’approche bio-psycho-sensorielle du Groupe de Réflexion sur l’Obésité et le Surpoids (GROS) dont j’adhère et que je mets en pratique. Cette méthode axée sur la restriction cognitive nous permet de sortir du cycle infernal “régime, sanction, culpabilité”, et cela m’a enfin permis de rejoindre mon poids d’équilibre et de le stabiliser.</p>
 <p>Si vous aussi vous souhaitez réapprendre à écouter votre corps et éliminer la culpabilité liée à votre alimentation, n’hésitez pas à prendre rendez-vous.</p>
 <div style="display:flex;flex-direction:column;align-items:center;padding-top:20px;">
   <div style="display:flex;flex-direction:column;align-items:center;">
@@ -184,18 +213,19 @@ Cette méthode axée sur la restriction cognitive nous permet de sortir du cycle
   </div>
 </div>
 
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
-            <article id='' class='post '>
-                <header class="post-header">
-                    <h2 class="post-title"></h2>
-                </header>
-                <section class="post-content">
-                    <h2>
+      </section>
+    </article>
+    <div class='post-after'></div>
+  </div>
+  
+  <div class='post-holder'>
+    <article id=''
+      class='post '>
+      <header class="post-header">
+        <h2 class="post-title"></h2>
+      </header>
+      <section class="post-content">
+        <h2>
 On connait tous la chanson ...
 </h2>
 <div style="display:flex;align-items:center;margin-top:20px;">
@@ -218,41 +248,47 @@ On connait tous la chanson ...
 <p>Arrêtons les frais des régimes restrictifs et rééquilibrages alimentaires qui ne fonctionnent pas sur le long terme.
 Retrouvez une alimentation sereine et intuitive qui vous permettra d’identifier votre poids d’équilibre et de mettre fin au yoyo pondéral !</p>
 
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
-            <article id='mon-approche' class='post '>
-                <header class="post-header">
-                    <h2 class="post-title">Mon Approche</h2>
-                </header>
-                <section class="post-content">
-                    <p>Après des années de régimes alimentaires et de restrictions, manger peut devenir un réel fardeau, on ne sait plus ce qui est bon ou mauvais pour nous. Aujourd’hui je souhaite vous accompagner vers une alimentation plus sereine et détendue.</p>
+      </section>
+    </article>
+    <div class='post-after'></div>
+  </div>
+  
+  <div class='post-holder'>
+    <article id='mon-approche'
+      class='post '>
+      <header class="post-header">
+        <h2 class="post-title">Mon Approche</h2>
+      </header>
+      <section class="post-content">
+        <p>Après des années de régimes alimentaires et de restrictions, manger peut devenir un réel fardeau, on ne sait plus ce qui est bon ou mauvais pour nous. Aujourd’hui je souhaite vous accompagner vers une alimentation plus sereine et détendue.</p>
 <p>Consciente des perturbations que peuvent créer des troubles du comportement alimentaire (TCA), une baisse d’estime de soi ou une pathologie (diabète, syndrome de l’intestin irritable, obésité…), nous trouverons ensemble le rythme et les exercices qui vous conviennent dans le but d’aller vers une alimentation plus intuitive.</p>
 <p><img src="images/kitty.jpg" alt="Kitty"></p>
 <p>Ma pratique est majoritairement basée sur l’écoute des sensations alimentaires (faim, envie, satiété et rassasiement), dans le but de faire correspondre vos apports avec vos besoins.</p>
 
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
-            <article id='consultation' class='post '>
-                <header class="post-header">
-                    <h2 class="post-title">Consultation</h2>
-                </header>
-                <section class="post-content">
-                    <div style="display:flex;flex-direction:column;align-items:left;padding-top:20px;">
+      </section>
+    </article>
+    <div class='post-after'></div>
+  </div>
+  
+  <div class='post-holder'>
+    <article id='consultation'
+      class='post '>
+      <header class="post-header">
+        <h2 class="post-title">Consultation</h2>
+      </header>
+      <section class="post-content">
+        <div style="display:flex;flex-direction:column;align-items:left;padding-top:20px;">
+    Le tarif d'une consultation diététique est de 42€. 
+    <p class="italic" style="font-size:18px;italic;">
+    De nombreuses mutuelles ou assurances de santé assurent un remboursement total ou partiel des consultations délivrées par une diététicienne.
+    </p>
   <div style="display:flex;flex-direction:row;align-items:center;">
     <div>
       <i class="fa fa-calendar fa-3x"></i>
     </div>
     <div style="margin-left:20px;">
       Planifier une consultation de diététique via mon
-      <a href="https://www.doctolib.fr/dieteticien/bordeaux/andrea-pagliardini">profil Doctolib</a> (42€)
+      <a href="https://www.doctolib.fr/dieteticien/bordeaux/andrea-pagliardini">profil Doctolib</a>
     </div>
   </div>
 </div>
@@ -266,30 +302,33 @@ Retrouvez une alimentation sereine et intuitive qui vous permettra d’identifie
     </div>
   </div>
 </div>
-<p>Au plaisir de vous rencontrer!</p>
+<div align="center">
+      Au plaisir de vous rencontrer!
+</div>
 <div style="display:flex;flex-direction:column;align-items:center;padding-bottom:20px;">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.7357937596407!2d-0.6407771844631254!3d44.84731367909844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d82ac439cc7b%3A0x17c2cc1eafac666c!2s4%20Avenue%20de%20Montesquieu%2C%2033700%20M%C3%A9rignac%2C%20France!5e0!3m2!1sen!2sch!4v1613422031856!5m2!1sen!2sch" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
-            <article id='me-contacter' class='post last'>
-                <header class="post-header">
-                    <h2 class="post-title">Me Contacter</h2>
-                </header>
-                <section class="post-content">
-                    <p><i class="fa fa-envelope"></i> <a href="mailto:andrea.pagliardini@gmail.com">andrea.pagliardini@gmail.com</a></p>
+      </section>
+    </article>
+    <div class='post-after'></div>
+  </div>
+  
+  <div class='post-holder'>
+    <article id='me-contacter'
+      class='post last'>
+      <header class="post-header">
+        <h2 class="post-title">Me Contacter</h2>
+      </header>
+      <section class="post-content">
+        <p><i class="fa fa-envelope"></i> <a href="mailto:andrea.pagliardini@gmail.com">andrea.pagliardini@gmail.com</a></p>
 <p><i class="fa fa-phone"></i> TEL: <a href="tel:0783670700">07 83 67 07 00</a></p>
 
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
+      </section>
+    </article>
+    <div class='post-after'></div>
+  </div>
+  
 </main>
 <footer class="site-footer">
   <div class="inner">
