@@ -90,11 +90,12 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  /*font-family: 'Droid Serif', serif;*/
-  font-family: "Roboto Slab", serif;
+  font-family: 'Open Sans', serif;
   font-size: 2rem;
   line-height: 1.6em;
-  color: #3a4145;
+  color: #3A4145;
+  text-align: justify;
+  background-color: #F5F3E7;
 }
 a.fa {
   text-decoration: none;
@@ -143,33 +144,31 @@ h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: calc(1.5em + 1vw);
   line-height: 1.2em;
   letter-spacing: -2px;
   text-indent: -3px;
+  text-align: left;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: calc(1.5em + 1vw);
   line-height: 1.2em;
   letter-spacing: -1px;
   text-indent: -2px;
+  text-align: left;
 }
 
 h3 {
-  font-size: 3.5rem;
+  font-size: calc(0.8em + 1vw);
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: calc(0.6em + 1vw);
 }
 
 h5 {
-  font-size: 2.5rem;
-}
-
-h6 {
-  font-size: 2rem;
+  font-size: calc(0.4em + 1vw);
 }
 
 a {
@@ -179,13 +178,18 @@ a {
   -moz-transition: all ease 0.3s;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+/* Links */
 a:hover {
-  color: #86c440;
+  color: #5b7f70;
 }
 
 a.btn {
   text-decoration: none;
-  background-color: #9fd067;
+  background-color: #7caf9a;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
@@ -204,7 +208,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background: #86c440;
+  background-color: #4c6a5d;
 }
 
 #header-arrow {
@@ -473,11 +477,38 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #b80135 no-repeat center center;
+  background: #ffffff no-repeat center center;
   background-size: cover;
+  text-decoration: none;
+}
+
+h1.site-head {
+  color: #0f1512;
+}
+
+h2.site-head {
+  color: #0f1512;
 }
 
 #site-head:after {
+}
+
+img {
+  border-radius: 500px;
+  width: 300px;
+}
+
+.item-instagram { 
+  flex: 0 0 50%; 
+  margin-right: 20px;
+  text-align: left;
+}
+
+.img-instagram {
+  border-radius: 0px;
+  display: block; 
+  height: auto; 
+  width: 100%;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
@@ -510,7 +541,7 @@ ul li {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", serif;
   letter-spacing: 0;
 }
 
@@ -521,7 +552,7 @@ ul li {
   position: relative;
 }
 .post-holder.odd {
-  background: #b80135;
+  background: #81bbce;
   color: white;
 }
 
@@ -563,10 +594,10 @@ a.fn-item {
   color: white;
 }
 a.fn-item:hover {
-  color: #9fd067;
+  color: #79a995;
 }
 a.fn-item.active {
-  color: #86c440;
+  color: #5b7f70;
   opacity: 1;
 }
 
@@ -816,9 +847,14 @@ a.fn-item.active {
   background: #22343a;
 }
 
+.site-footer-contact {
+  text-align: left;
+  font-size: large;
+}
+
 .site-footer a {
   color: #bbc7cc;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .site-footer a:hover {
@@ -976,20 +1012,20 @@ a.fn-item.active {
   }
 
   h1 {
-    font-size: 4.8rem;
+    font-size: calc(1.5em + 1vw);
     text-indent: -2px;
   }
 
   h2 {
-    font-size: 3.8rem;
+    font-size: calc(1.2em + 1vw);
   }
 
   h3 {
-    font-size: 3.3rem;
+    font-size: calc(0.8em + 1vw);
   }
 
   h4 {
-    font-size: 2.8rem;
+    font-size: calc(0.6em + 1vw);
   }
 }
 
@@ -1044,7 +1080,7 @@ a.fn-item.active {
 
   h1,
   h2 {
-    font-size: 3rem;
+    font-size: calc(1.2em + 1vw);
     line-height: 1.1em;
     letter-spacing: -1px;
   }
