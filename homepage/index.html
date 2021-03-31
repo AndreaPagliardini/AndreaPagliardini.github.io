@@ -103,18 +103,40 @@ if (!doNotTrack) {
 
 
 <main class="content" role="main">
+  
+  <div class='fixed-nav'>
+    <div style="display:flex;flex-direction:column;">
+      <div title="Retour à la page principale"
+        style="background-color:#a5cfbe;display:flex;flex-direction:column;align-items:center;margin-bottom:5px;">
+        <icon class="fa fa-home fa-2x"
+          onclick="location.href='/'"
+          style="cursor: pointer;margin-left:1px;">
+      </div>
+      <div title="Voir la liste de mes articles"
+        style="background-color:#a5cfbe;display:flex;flex-direction:column;align-items:center;margin-bottom:5px;">
+        <a href="https://andrea-pagliardini-dieteticienne-bordeaux-merignac.fr/posts/">Mes articles</a>
+      </div>
+      <div title="Prendre rendez-vous avec Doctolib"
+        style="background-color:#a5cfbe;display:flex;flex-direction:column;align-items:center;margin-bottom:5px;">
+        <a href="https://www.doctolib.fr/dieteticien/bordeaux/andrea-pagliardini">Me contacter</a>
+      </div>
+      
+
+
+    </div>
+  </div>
+  
   <div class='post-holder'>
     <article id='' class="inner">
 
-      <header id="site-head" >
+      <header id="site-head">
         <div class="vertical">
           <div id="site-head-content" class="inner">
-            <a href="https://andrea-pagliardini-dieteticienne-bordeaux-merignac.fr">
-              <h1 class="post-title"></h1>
-            </a>
+            <h1 class="site-head"></h1>
           </div>
         </div>
       </header>
+      
       <section class="post-content">
         
       </section>
@@ -134,7 +156,6 @@ if (!doNotTrack) {
       </div>
     </div>
 </main>
-
 <footer class="site-footer">
   <div style="display: flex;">
     <div style="flex: 1;">

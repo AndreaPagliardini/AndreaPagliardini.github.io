@@ -46,5 +46,15 @@ Tout le monde a un avis sur le type d&amp;rsquo;alimentation qu&amp;rsquo;il fau
       <description> {{ range .Pages }} {{ .Render &#34;li&#34;}} {{ end }} </description>
     </item>
     
+    <item>
+      <title>Pourquoi c&#39;est si dur d&#39;aimer son corps ?</title>
+      <link>https://andrea-pagliardini-dieteticienne-bordeaux-merignac.fr/posts/pourquoi-c-est-si-dur-de-s-aimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andrea-pagliardini-dieteticienne-bordeaux-merignac.fr/posts/pourquoi-c-est-si-dur-de-s-aimer/</guid>
+      <description>A cause des injonctions médicales grossophobes ? Et oui .. pour certains praticiens de santé, santé rime encore avec corps mince&amp;hellip;
+A cause du manque de représentation de corps différents dans les médias et de tailles dans les magasins. Dans notre société, quand on n&amp;rsquo;entre pas dans la norme, on ne manque pas de nous le faire remarquer. Ce qui peut être très difficile à vivre et nous empêcher de nous exprimer et d&amp;rsquo;être nous mêmes.</description>
+    </item>
+    
   </channel>
 </rss>

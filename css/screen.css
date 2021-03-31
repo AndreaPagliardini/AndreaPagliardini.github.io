@@ -477,7 +477,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #ffffff no-repeat center center;
+  background: #f2efe8 no-repeat center center;
   background-size: cover;
   text-decoration: none;
 }
@@ -501,7 +501,7 @@ img {
 .item-instagram { 
   flex: 0 0 50%; 
   margin-right: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .img-instagram {
