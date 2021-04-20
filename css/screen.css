@@ -439,6 +439,26 @@ ul li {
   padding-top: 7px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.item {
+  margin: 5px;
+  min-height: 0;
+  min-width: 0 ;
+  flex-grow: 1 1 0;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+}
+
 /* ==========================================================================
       3. Utilities - These things get used a lot
       ========================================================================== */
@@ -498,17 +518,8 @@ img {
   width: 300px;
 }
 
-.item-instagram { 
-  flex: 0 0 50%; 
-  margin-right: 20px;
-  text-align: center;
-}
-
 .img-instagram {
   border-radius: 0px;
-  display: block; 
-  height: auto; 
-  width: 100%;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
@@ -851,7 +862,7 @@ a.fn-item.active {
 
 .site-footer-contact {
   text-align: left;
-  font-size: large;
+  font-size: 1.8rem;
 }
 
 .site-footer h2 {
