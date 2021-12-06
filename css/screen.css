@@ -184,12 +184,12 @@ a:link {
 
 /* Links */
 a:hover {
-  color: #5b7f70;
+  color: #ffffff;
 }
 
 a.btn {
   text-decoration: none;
-  background-color: #7caf9a;
+  background-color: #ca5e43;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
@@ -208,7 +208,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background-color: #4c6a5d;
+  background-color: #c54e54;
 }
 
 #header-arrow {
@@ -545,6 +545,7 @@ img {
   font-size: 5rem;
   letter-spacing: -1px;
   text-align: center;
+  color:#c54e54
 }
 
 .blog-description {
@@ -555,6 +556,7 @@ img {
   font-family: "Open Sans", serif;
   letter-spacing: 0;
   text-align: center;
+  color:#50585d
 }
 
 .post-holder {
@@ -564,7 +566,7 @@ img {
   position: relative;
 }
 .post-holder.odd {
-  background: #81bbce;
+  background: #ca5e43;
   color: white;
 }
 
@@ -606,10 +608,10 @@ a.fn-item {
   color: white;
 }
 a.fn-item:hover {
-  color: #79a995;
+  color: #c54e54;
 }
 a.fn-item.active {
-  color: #5b7f70;
+  color: #c54e54;
   opacity: 1;
 }
 
@@ -770,7 +772,7 @@ a.fn-item.active {
   font-size: 1.8rem;
   display: inline-block;
   margin: 1.4rem 1.6rem 1.6rem 0;
-  color: #bbc7cc;
+  color: #ffffff;
 }
 
 .post-footer .share a:hover {
@@ -854,9 +856,9 @@ a.fn-item.active {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
   line-height: 1.5em;
-  color: #bbc7cc;
+  color: #ffffff;
   text-align: center;
-  background: #22343a;
+  background: #c54e54;
 }
 
 .site-footer-contact {
@@ -869,7 +871,7 @@ a.fn-item.active {
 }
 
 .site-footer a {
-  color: #bbc7cc;
+  color: #ffffff;
   text-decoration: none;
 }
 
